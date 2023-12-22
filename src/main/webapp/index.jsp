@@ -72,8 +72,8 @@ body {
 	</div>
 
 	<div class="center-buttons">
-		<a href="./login"><button class="btn btn-primary">Log In</button></a>
-		<a href="./register"><button class="btn btn-success">Register</button></a>
+		<a href="./user/login"><button class="btn btn-primary">Log In</button></a>
+		<a href="./user/register"><button class="btn btn-success">Register</button></a>
 	</div>
 
 	<!-- Latest compiled and minified JavaScript -->
