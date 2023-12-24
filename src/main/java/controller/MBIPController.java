@@ -58,7 +58,12 @@ public class MBIPController {
     public String homepage(HttpServletRequest request){
         return "landingpage";
     }
+
     
+    @RequestMapping("/calculation")
+    public String carboncalculationpage(HttpServletRequest request){
+        return "carboncalculationpage";
+    }
     
 //    @RequestMapping("/homepage")
 //    public String homepageHandler(){
