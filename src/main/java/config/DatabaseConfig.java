@@ -40,7 +40,7 @@ public class DatabaseConfig {
     public void cleanUp() {
         // Attempt to deregister the JDBC driver to prevent memory leaks
         try {
-            java.sql.DriverManager.deregisterDriver(java.sql.DriverManager.getDriver("jdbc:mysql://localhost:3306/springdb"));
+            java.sql.DriverManager.deregisterDriver(java.sql.DriverManager.getDriver("jdbc:mysql://localhost:3306/mbip"));
         } catch (Exception e) {
             // Handle the exception as needed
         }
